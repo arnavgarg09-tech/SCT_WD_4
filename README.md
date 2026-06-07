@@ -1,2 +1,29 @@
-# SCT_WD_4
-Smart Task Manager is a responsive To-Do Web Application built using HTML, CSS, and JavaScript. It allows users to add, edit, delete, and organize tasks with priority levels, due dates, search and filter options, progress tracking, dark mode, and local storage support.
+# Smart Task Manager
+
+A modern To-Do Web Application developed using HTML, CSS, and JavaScript.
+
+## Features
+
+- Add Tasks
+- Edit Tasks
+- Delete Tasks
+- Mark Complete
+- Due Date & Time
+- Search Functionality
+- Task Filters
+- Priority Levels
+- Progress Tracking
+- Dark Mode
+- Local Storage
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Internship Task
+
+SkillCraft Technology Internship
+
+Task 04 – To-Do Web App
