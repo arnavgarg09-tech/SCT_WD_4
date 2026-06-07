@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Task Manager</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+<div class="header">
+<h1>Smart Task Manager</h1>
+<button id="themeBtn">
+<i class="fas fa-moon"></i>
+</button>
+</div>
+
+<div class="stats">
+<p>Total: <span id="total">0</span></p>
+<p>Completed: <span id="completed">0</span></p>
+<p>Pending: <span id="pending">0</span></p>
+</div>
+
+<div class="progress-container">
+<div class="progress-bar" id="progressBar"></div>
+</div>
+
+<div class="task-input">
+
+<input type="text" id="taskInput"
+placeholder="Enter Task">
+
+<input type="datetime-local"
+id="taskDate">
+
+<select id="priority">
+<option value="High">High</option>
+<option value="Medium">Medium</option>
+<option value="Low">Low</option>
+</select>
+
+<button onclick="addTask()">
+Add Task
+</button>
+
+</div>
+
+<input type="text"
+id="search"
+placeholder="Search Tasks...">
+
+<div class="filters">
+<button onclick="filterTasks('all')">All</button>
+<button onclick="filterTasks('completed')">Completed</button>
+<button onclick="filterTasks('pending')">Pending</button>
+</div>
+
+<ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
